@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+setuptools
+kagglehub
+joblib
+xgboost
+flask
+imblearn

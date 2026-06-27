@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial=scale=1.0">
+    <title>EMPLOYEE ATTRITION PREDICTION ❤️</title>    
+</head>
+
+<body>
+    <div class="container">
+        <h2>Employee Attrition Prediction</h2>
+        <form method="POST">
+            <div class ="form-group">
+                <label for="JobLevel">Job Level</label>
+                <input type="number" id="JobLevel", name="JobLevel" required>
+            </div>
+            <br>
+
+            <div class ="form-group">
+                <label for="Shift">Shift</label>
+                <input type="number" id="Shift", name="Shift" required>
+            </div>
+            <br>
+
+            <div class ="form-group">
+                <label for="JobInvolvement">Job Involvement</label>
+                <input type="number" id="JobInvolvement", name="JobInvolvement" required>
+            </div>
+            <br>
+
+            <div class ="form-group">
+                <label for="Age">Age</label>
+                <input type="number" id="Age", name="Age" required>
+            </div>
+            <br>
+
+            <div class ="form-group">
+                <label for="TotalWorkingYears">Total Experience</label>
+                <input type="number" id="TotalWorkingYears", name="TotalWorkingYears" required>
+            </div>
+            <br>
+
+            <div class ="form-group">
+                <label for="YearsAtCompany">Current company Experience</label>
+                <input type="number" id="YearsAtCompany", name="YearsAtCompany" required>
+            </div>
+            <br>
+
+            <div class ="form-group">
+                <label for="OverTime">Over Time</label>
+                <input type="number" id="OverTime", name="OverTime" required>
+            </div>
+            <br>
+
+            <div class ="form-group">
+                <label for="YearsWithCurrManager">Years With Current Manager</label>
+                <input type="number" id="YearsWithCurrManager", name="YearsWithCurrManager" required>
+            </div>
+            <br>
+
+            <div class ="form-group">
+                <label for="JobSatisfaction">Job Satisfaction</label>
+                <input type="number" id="JobSatisfaction", name="JobSatisfaction" required>
+            </div>
+            <br>
+
+            <div class ="form-group">
+                <label for="MonthlyIncome">Monthly Income</label>
+                <input type="number" id="MonthlyIncome", name="MonthlyIncome" required>
+            </div>
+            <br><br>
+                
+            <button type="submit">Predict</button>    
+             </form>
+
+      {% if prediction %}
+            <h2>Prediction : {{ prediction }}</h2>
+        {% endif %}
+
+    </div>
+</div>    
+</body>
+</html>
