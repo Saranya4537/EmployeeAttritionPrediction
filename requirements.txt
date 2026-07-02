@@ -1,5 +1,7 @@
 pandas
 numpy
+google-cloud-storage
+pyyaml
 scikit-learn
 matplotlib
 seaborn
