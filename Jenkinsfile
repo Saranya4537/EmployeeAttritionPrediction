@@ -36,7 +36,7 @@ pipeline {
             steps{
                 withCredentials([file(credentialsId:'GCP_token' , variable: 'GOOGLE_APPLICATION_CREDENTIALS' )]){
                     script{
-                        echo 'DVC Pul....'
+                        echo 'DVC Pull....'
                         sh '''
                         . ${VENV_DIR}/bin/activate
                         dvc pull
