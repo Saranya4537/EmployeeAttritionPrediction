@@ -43,7 +43,7 @@ pipeline {
                         export PATH=$PATH:${GCLOUD_PATH}
                         gcloud auth activate-service-account --key-file=${GOOGLE_APPLICATION_CREDENTIALS}
                         gcloud config set project ${GCP_PROJECT}
-                        which docker
+                        
                         docker --version
                         echo $PATH
                         gcloud auth configure-docker --quiet
