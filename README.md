@@ -8,12 +8,12 @@ Top 10 important features are selected using model.feature_importances_<br>
 **Model Training:**<br>
 lightgbm model is used to predict the employee attrition.
 pipeline is created to orchestrate the process of data ingestion, data processing and model training and finally save the model using joblib and used to predict the saved model for user inputs.<br>
-User interface:<br>
+**User interface:**<br>
 Flask is used to create the user interface for prediction based on the user inputs.<br>
-CI CD Deployment:<br>
+**CI CD Deployment:**<br>
 It is a powerful automation server used to implement the entire CI/CD (Continuous Integration and Continuous Delivery/Deployment) pipeline. It automates the process of building, testing, and deploying your software. <br>
-Continuous Integration (CI): Automatically pulling code from a repository, compiling it, and running automated tests to ensure new code merges safely.<br>
-Continuous Delivery/Deployment (CD): Automatically deploying the tested application to staging or production environments<br>
+**Continuous Integration (CI):** Automatically pulling code from a repository, compiling it, and running automated tests to ensure new code merges safely.<br>
+**Continuous Delivery/Deployment (CD):** Automatically deploying the tested application to staging or production environments<br>
 setup a Jenkins container and this is called docker in docker<br>
 github integration with jenkins<br>
 dockerization of the project<br>
